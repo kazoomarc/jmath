@@ -109,6 +109,10 @@ public class Number {
         return num % divisor == 0;
     }
 
+    // isfactor()
+    // relativelyPrime
+    // relativePrimes
+
     /**
      * Returns an array of integers containing all the divisors of a given integer
      *
@@ -214,10 +218,27 @@ public class Number {
     public static int lcm(int a, int b) {
         return (a * b) / gcd(a, b);
     }
-    //
+
     // int[] uniquePrimeFactors(int n);
     // int numDivisors(int n);
-    // int totient(int n);
+
+    /**
+     * totient φ(n) finds number of positive integers <= to n that are relatively
+     * prime to n
+     *
+     * @param n integer to find totient of
+     * @return totient of n
+     */
+    public static int totient(int n) {
+        int totient = 0;
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i) && isDivisible(n, i)) {
+                totient += 1;
+            }
+        }
+        ;
+        return totient;
+    }
     // int numDigits(int n);
     // int[] digits(int n);
     // int reverse(int n);
