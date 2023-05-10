@@ -131,7 +131,7 @@ public class Number {
         return Arrays.copyOf(divisors, count + 1);
     }
 
-    // boolean isPrime(int n);
+    // todo: use efficient method
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
@@ -177,6 +177,7 @@ public class Number {
     // boolean isPowerOfTwo(int n);
     // int[] powersOfTwo(int n);
 
+    // todo use effiecient algorithm for BigInteger
     /**
      * gcd - using euclid algorithm
      *
