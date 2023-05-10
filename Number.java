@@ -202,7 +202,18 @@ public class Number {
 
         return r;
     }
-    // int lcm(int a, int b);
+
+    /**
+     * LCM(a,b) = (a*b) / GCD(a,b)
+     *
+     * @param a
+     * @param b
+     * @return lowest common multiple
+     */
+    public static int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
+    }
+    //
     // int[] uniquePrimeFactors(int n);
     // int numDivisors(int n);
     // int totient(int n);
