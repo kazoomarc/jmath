@@ -266,6 +266,7 @@ public class Number {
     // boolean isPerfectSquare(int n);
     // boolean isPerfectCube(int n);
 
+    // todo: generate constants()
     // boolean isAmicablePair(int a, int b);
     // int[] amicablePairs(int start, int end);
 
