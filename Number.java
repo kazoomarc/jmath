@@ -252,8 +252,7 @@ public class Number {
     // int[] uniqueFactors(int n);
 
     // int binomialCoeff(int n, int k);
-    // int gcd(int a, int b);
-    // int lcm(int a, int b);
+
     // int[] collatz(int n);
     // int digitalRoot(int n);
     // approximate(PI)
