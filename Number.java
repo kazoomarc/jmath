@@ -222,6 +222,7 @@ public class Number {
     // int[] uniquePrimeFactors(int n);
     // int numDivisors(int n);
 
+    // todo: implement using Euler's product formula
     /**
      * totient φ(n) finds number of positive integers <= to n that are relatively
      * prime to n
