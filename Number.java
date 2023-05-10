@@ -45,7 +45,7 @@ public class Number {
             return false;
         }
 
-        // TODO: what if there's space at the begining
+        // todo: what if there's space at the begining
         // check if all chars are digits
         for (char c : str.toCharArray()) {
             if (!(Character.isDigit(c))) {
@@ -177,7 +177,31 @@ public class Number {
     // boolean isPowerOfTwo(int n);
     // int[] powersOfTwo(int n);
 
-    // int gcd(int a, int b);
+    /**
+     * gcd - using euclid algorithm
+     *
+     * @param num1 number to do gcd on
+     * @param num2 number to do gcd on
+     * @return the gcd
+     */
+    public static int gcd(int num1, int num2) {
+        int numL = (num1 > num2) ? num1 : num2;
+        int numS = (num1 > num2) ? num2 : num1;
+
+        int r = 1;
+        int check = 1;
+
+        while (check != 0) {
+            if (numL % numS != 0)
+                r = numL % numS;
+            else
+                check = 0;
+            numL = numS;
+            numS = r;
+        }
+
+        return r;
+    }
     // int lcm(int a, int b);
     // int[] uniquePrimeFactors(int n);
     // int numDivisors(int n);
