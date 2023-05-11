@@ -66,6 +66,9 @@ public class Input {
     }
 
     // todo: String getLine()
+    public static String getLine(String prompt) {
+        return input(prompt);
+    }
     // todo: int getIntInRange()
     // todo: int getIntList()
     // todo: char getCharInList()
@@ -75,6 +78,7 @@ public class Input {
     // todo: Date getDate()
     // todo: int[] getIntArray()
     // todo: List getStringList()
+
     // todo: Evaluate()
     /**
      * input(FormatSpecifier(s) x)

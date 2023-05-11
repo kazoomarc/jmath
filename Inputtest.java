@@ -2,7 +2,7 @@ import tech.joelmwala.util.*;
 
 public class Inputtest {
     public static void main(String[] args) {
-        int num = In12put.getInt("Enter num: ");
+        String num = Input.getLine("Enter num: ");
         System.out.println(num);
 
     }
