@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Input {
     private static final Scanner in = new Scanner(System.in);
 
-    //
+    // it works
     public static String input(String prompt) {
         System.out.print(prompt);
         return in.nextLine();
@@ -22,8 +22,8 @@ public class Input {
             return Integer.parseInt(in.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Invalid Input! <Integer> Required");
+            return Integer.MIN_VALUE;
         }
-        return NULL;
     }
 
     // get a Double from stdin
@@ -33,8 +33,8 @@ public class Input {
             return Double.parseDouble(in.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Invalid Input! <Double> Required");
+            return Double.MIN_VALUE;
         }
-        return NULL;
     }
 
     // get a String from stdin
@@ -50,8 +50,8 @@ public class Input {
             return Boolean.parseBoolean(in.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Invalid Input! <Boolean> Required");
+            return false;
         }
-        return NULL;
     }
 
     // get a Double from stdin
@@ -61,8 +61,8 @@ public class Input {
             return (in.nextLine()).charAt(0);
         } catch (NumberFormatException e) {
             System.out.println("Invalid Input! <Character> Required");
+            return Character.MIN_VALUE;
         }
-        return NULL;
     }
 
     // todo: String getLine()
