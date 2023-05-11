@@ -1,3 +1,5 @@
+package tech.joelmwala.jmath;
+
 import java.util.Arrays;
 
 /**
