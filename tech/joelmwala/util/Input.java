@@ -69,7 +69,15 @@ public class Input {
     public static String getLine(String prompt) {
         return input(prompt);
     }
+
     // todo: int getIntInRange()
+    public static int getIntInRange(int end) {
+        // get Input
+        // check if in range
+        // if in range get();
+        return -1;
+    }
+    // todo: int getIntInRange(int start, int end);
     // todo: int getIntList()
     // todo: char getCharInList()
     // todo: char getCharList()
