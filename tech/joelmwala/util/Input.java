@@ -1,3 +1,5 @@
+package tech.joelmwala.util;
+
 import java.util.Scanner;
 
 /**
