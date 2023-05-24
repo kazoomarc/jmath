@@ -6,5 +6,7 @@ public class Measures {
     // quartile
     // deciles
     // IQR - inter quartile range
+    // outliers
+    //
     // percentile rank
 }
