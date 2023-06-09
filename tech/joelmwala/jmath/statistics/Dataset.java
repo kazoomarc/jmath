@@ -10,4 +10,6 @@ public class Dataset {
     public double[] getData() {
         return data;
     }
+
+    //sort with java?
 }
