@@ -1,4 +1,4 @@
-package tech.joelmwala.jmath;
+package tech.joelmwala.jmath.Number;
 
 import java.util.Arrays;
 

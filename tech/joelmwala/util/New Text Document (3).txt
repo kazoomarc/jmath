@@ -1,0 +1,18 @@
+boolean isEmpty() is standard input empty (or only whitespace)?
+int readInt() read a token, convert it to an int, and return it
+double readDouble() read a token, convert it to a double, and return it
+boolean readBoolean() read a token, convert it to a boolean, and return it
+String readString() read a token and return it as a String
+methods for reading characters from standard input
+boolean hasNextChar() does standard input have any remaining characters?
+char readChar() read a character from standard input and return it
+methods for reading lines from standard input
+boolean hasNextLine() does standard input have a next line?
+String readLine() read the rest of the line and return it as a String
+methods for reading the rest of standard input
+int[] readAllInts() read all remaining tokens and return them as an int array
+double[] readAllDoubles() read all remaining tokens and return them as a double array
+boolean[] readAllBooleans() read all remaining tokens and return them as a boolean array
+String[] readAllStrings() read all remaining tokens and return them as a String array
+String[] readAllLines() read all remaining lines and return them as a String array
+String readAll()

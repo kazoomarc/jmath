@@ -1,4 +1,4 @@
-import tech.joelmwala.jmath.Number;
+import tech.joelmwala.jmath.Number.Number;
 
 public class Numbertest {
     public static void main(String[] args) {

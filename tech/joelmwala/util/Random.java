@@ -54,3 +54,15 @@ public class Random {
         return (int) (start + Math.random() * (start - end));
     }
 }
+/**
+ *
+ * Todo
+ * -------------------------------
+ * - Randomchar
+ * - getRandomChar
+ * - char getRandomCharacter(char ch1, char ch2)
+ * - char getRandomLowerCaseLetter()
+ * - char getRandomUpperCaseLetter()
+ * - char getRandomDigitCharacter()
+ * - char getRandomCharacter()
+ */
